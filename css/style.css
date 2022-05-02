@@ -4,3 +4,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container {
+    width: 1000px;
+    margin: auto;
+    background-color: aqua;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.item {
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+    font-size: 26px;
+    border: 3px solid #fff;
+}
