@@ -4,23 +4,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: #083b4c;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*------ title ------*/
+h1 {
+    font-size: 80px;
+    margin: 10px 0 30px 0;
+    text-align: center;
+    color: #fff;
+}
+
+/*------ fizzbuzz game ------*/
 .container {
-    width: 1000px;
+    width: 1180px;
     margin: auto;
-    background-color: aqua;
 }
 .list {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
     list-style: none;
 }
 .item {
-    width: 120px;
-    height: 120px;
-    background-color: blue;
-    color: #fff;
+    width: 100px;
+    height: 100px;
+    background-color: #1389b2;
+    border-radius: 20px;
     text-align: center;
-    line-height: 120px;
-    font-size: 26px;
-    border: 3px solid #fff;
+    line-height: 100px;
+    font-size: 24px;
+}
+.fizz {
+    background-color: #0bd6a1;
+}
+.buzz {
+    background-color: #ffd166;
+}
+.fizzbuzz {
+    background-color: #f0466f;
 }
