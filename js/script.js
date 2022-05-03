@@ -11,22 +11,19 @@ for(let i=1; i<=100; i++) {
     if (i % 3 === 0 && i % 5 === 0){
         fizzbuzzNumber.classList.add("item" ,"fizzbuzz");
         fizzbuzzNumber.innerText = "FizzBuzz";
-        fizzbuzzList.append(fizzbuzzNumber);
         console.log("FizzBuzz");
     } else if (i % 3 === 0){
         fizzbuzzNumber.classList.add("item" , "fizz");
         fizzbuzzNumber.innerText = "Fizz";
-        fizzbuzzList.append(fizzbuzzNumber);
         console.log("Fizz");
     } else if (i % 5 === 0) {
         fizzbuzzNumber.classList.add("item" , "buzz");
         fizzbuzzNumber.innerText = "Buzz";
-        fizzbuzzList.append(fizzbuzzNumber);
         console.log("Buzz");
     } else {
         fizzbuzzNumber.classList.add("item");
         fizzbuzzNumber.innerText = i;
-        fizzbuzzList.append(fizzbuzzNumber);
         console.log(i);
     }
+    fizzbuzzList.append(fizzbuzzNumber);
 }
